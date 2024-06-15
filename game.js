@@ -65,7 +65,7 @@ function animatePress(colorAnimate) {
   }, 100);
 }
 function playSound(name) {
-  var audi = new Audio("sounds/" + name + ".mp3");
+  var audi = new Audio( name + ".mp3");
   audi.play();
 }
 
